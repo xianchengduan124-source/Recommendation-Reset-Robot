@@ -4,7 +4,7 @@ import asyncio
 import os
 from bilibili_api import Credential, video, homepage, sync
 
-path = "/home/d0902/Documents/Recommendation-Reset-Robot/bilibili-frontend/auto-login/MyAccount.json"
+path = "/home/d0902/Documents/Recommendation-Reset-Robot/MyAccount.json"
 
 with open(path, 'r', encoding='utf-8') as file:
     account_data = json.load(file)
